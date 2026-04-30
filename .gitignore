@@ -1,0 +1,81 @@
+# =============================================================                                              
+  #  .gitignore — Lunar Regolith Analysis                                                                      
+  # =============================================================                                              
+                                                            
+  # --- Cartelle di dati e risultati ---                                                                       
+  data/                                                     
+  res_DGCA/                                                                                                    
+  res_shapiro/                                              
+  images/                                                                                                    
+
+  # --- File temporanei macOS ---                                                                              
+  .DS_Store
+  .AppleDouble                                                                                                 
+  .LSOverride                                                                                                  
+  ._*                                                                                                        
+                                                                                                               
+  # --- File temporanei Office (file aperto) ---                                                               
+  ~$*                                                                                                        
+                                                                                                               
+  # --- R: sessioni, cache, artefatti ---                                                                      
+  .Rhistory                                                                                                  
+  *.Rhistory                                                                                                   
+  .RData                                                    
+  *.RData                                                                                                    
+  *.rds
+  .Rproj.user/                                                                                                 
+  *.Rproj
+                                                                                                               
+  # --- Dati bioinformatici (input/output) ---                                                                 
+  *.txt                                                                                                      
+  *.csv                                                                                                        
+  *.tsv                                                     
+  *.bed                                                                                                      
+  *.gff
+  *.gff3                                                                                                       
+  *.gtf
+  *.vcf                                                                                                        
+  *.bam                                                     
+  *.sam                                                                                                      
+  *.fastq
+  *.fq
+  *.fa
+  *.fasta                                                                                                      
+   
+  # --- File Excel / Office ---                                                                                
+  *.xls                                                     
+  *.xlsx                                                                                                     
+  *.docx
+  *.pptx
+  *.doc                                                                                                        
+  *.ppt
+  *.ods                                                                                                        
+                                                            
+  # --- Figure e immagini ---                                                                                
+  *.pdf
+  *.png
+  *.jpg
+  *.jpeg                                                                                                       
+  *.svg
+  *.tiff                                                                                                       
+  *.eps                                                     
+                                                                                                             
+  # --- Cytoscape ---
+  *.cys
+
+  # --- Log ---                                                                                                
+  *.log
+  *.history                                                                                                    
+                                                            
+  # --- Python (se mai usato) ---                                                                              
+  __pycache__/
+  *.py[cod]                                                                                                    
+  .ipynb_checkpoints/                                       
+  .venv/                                                                                                     
+  venv/                                                                                                        
+   
+  # --- HTML ---                                                                                               
+  *.html                                                    
+                                                                                                             
+  ---
+
